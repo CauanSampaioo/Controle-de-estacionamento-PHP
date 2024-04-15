@@ -1,0 +1,8 @@
+pesquisar sobre o docker
+
+//como os metodos post recebem os valores nas funcoes ?
+
+$function = $routes[$route];
+    $function();
+// isso é uma gambiarra mas funciona kkkkkk
+recriar o código inteiro

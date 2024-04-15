@@ -1,0 +1,34 @@
+para executar é necessário ter o PHP instalado na máquina
+ou ter um servidor apache ou nginx
+
+para executar usando apenas o php sem servidor
+use o comando abaixo pelo terminal no diretório do projeto:
+
+php -S localhost:8000 ./src/index.php
+
+Isso vai iniciar o servidor do próprio PHP na porta 8000
+
+Para ver se a aplicação está funcionando use um navegador
+ou use o Insomnia ou ainda o Postman e acesse o endereço:
+http://localhost:8000/
+
+Vai aparecer na tela a mensagem 'Funcionou!'
+
+
+Uma collection do Insomnia foi adicionada para facilitar os testes.
+
+No arquivo connection.php configure os dados de conexão do banco de dados
+caso necessário.
+Se usar o docker do projeto use a porta 5433 para o banco
+se for usar um banco instalado no proprio sistema use a porta 5432
+
+
+Excute manualmente os arquivos de banco de dados na sequencia dos números.
+Se o banco não estiver criado ainda
+então pode ser descomentada a parte que cria o banco:
+--CREATE DATABASE estacionamento_wi5;
+
+Mas caso o banco já exista então pode usar o arquivo 01_create_data_base.sql
+apenas para criar as tabelas iniciais.
+
+
